@@ -10,4 +10,4 @@ RUN mkdir /app/
 WORKDIR /app/
 COPY . /app/
 RUN pip3 install -U -r requirements.txt
-CMD bash start
+CMD pyrhon3 main.py
